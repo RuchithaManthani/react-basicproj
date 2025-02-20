@@ -6,7 +6,7 @@ const Input = ({colorName, setColorName}) => {
         
         <input id="input"
         type="text"
-        placeholder='Add Color Name'
+        placeholder='Enter Color Name'
         required
         value={colorName}
         onChange ={(e)=>{setColorName(e.target.value)
